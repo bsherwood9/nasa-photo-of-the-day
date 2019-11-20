@@ -34,6 +34,6 @@
 
 .image-box {
   display: inline-block;
-  width: 600px;
+  max-width: 500px;
   height: auto;
 }
