@@ -4,7 +4,7 @@ import ReactPlayer from "react-player";
 
 const InfoCard = props => {
   return (
-    <div>
+    <div className="main">
       <h1>Title: {props.title}</h1>
       {props.type === "video" ? (
         <ReactPlayer

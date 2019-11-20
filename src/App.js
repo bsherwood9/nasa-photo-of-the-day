@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import ReactPlayer from "react-player";
 import axios from "axios";
 import "./App.css";
 import InfoCard from "../src/components/Info-card/infoCard";
@@ -40,7 +39,7 @@ function App() {
       });
   }, [date]);
   return (
-    <div>
+    <div className="container">
       <Header date={info.date} />
       <InfoCard
         url={url}
